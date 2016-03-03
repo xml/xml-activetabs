@@ -1,0 +1,24 @@
+{
+  "name": "xml-activetabs",
+  "description": "Angular directives for activating any tab(s) that match the current $location.path()",
+  "main": "src/xml-activetabs.js",
+  "authors": [
+    "Christian Lilley <xml@christianlilley.com> (http://about.me/xml)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "directive",
+    "tabs"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/xml/xml-activetabs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
