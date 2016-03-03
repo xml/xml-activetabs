@@ -1,0 +1,57 @@
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <acme-navbar creation-date="main.creationDate"></acme-navbar>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="acme-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">'Allo, 'Allo!</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          Always a pleasure scaffolding your apps.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Splendid Toastr
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+      <div class="acme-card-wide mdl-card mdl-shadow--2dp" style="margin-top: 30px;">
+        <div class="mdl-tabs">
+          <div class="mdl-tabs__tab-bar">
+            <a class="mdl-tabs__tab" xml-detect-active-tab="2" href="#/home/design" >Design</a>
+            <a class="mdl-tabs__tab" xml-detect-active-tab="2" href="#/home/automate" >Automate</a>
+            <a class="mdl-tabs__tab" xml-detect-active-tab="2" href="#/home/test" >Test</a>
+          </div>
+          <!-- ui-view for rendering our routed tab content -->
+          <div class="mdl-tabs__panel is-active" ui-view > </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__right-section">
+      <div class="mdl-logo">
+        With ♥ thanks to the contributions of
+        <acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']"></acme-malarkey>
+      </div>
+    </div>
+  </footer>
+</div>

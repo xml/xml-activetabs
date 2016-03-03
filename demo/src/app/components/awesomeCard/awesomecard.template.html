@@ -1,0 +1,14 @@
+<div class="acme-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">{{ awesomeThing.title }}</h2>
+  </div>
+  <div class="mdl-card__media">
+    <img ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
+  </div>
+  <div class="mdl-card__supporting-text">
+    {{ awesomeThing.description }}
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" ng-href="{{ awesomeThing.url }}"> Website </a>
+  </div>
+</div>
